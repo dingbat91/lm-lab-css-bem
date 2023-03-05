@@ -1,35 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./normalize.css" />
+		<link rel="stylesheet" href="./styles.css" />
+		<title>BEM Notation & OOCSS: Writing scaleable CSS</title>
+	</head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
-    <title>BEM Notation & OOCSS: Writing scaleable CSS</title>
-</head>
+	<body>
+		<h1 class="pageheader">BEM Wars</h1>
+		<div class="container">
+			<div class="card__dark">
+				<h2 class="card__title">The Dark Side</h2>
+				<img class="card__img--dark" src="./images/vader.jpeg" />
+				<div class="card__text">
+					<p>Nesting!</p>
+					<p>Conflict!</p>
+					<p>Specificity Wars!</p>
+					<p>Cookies</p>
+				</div>
+				<button class="card__btn--dark">Warning!</button>
+			</div>
 
-<body>
-    <h1>BEM Wars</h1>
-    <div class="container">
-        <div>
-            <h2>The Dark Side</h2>
-            <img src="./images/vader.jpeg">
-            <p>Nesting!</p>
-            <p>Conflict!</p>
-            <p>Specificity Wars!</p>
-            <p>Cookies</p>
-        </div>
-
-        <div>
-            <h2>The Force</h2>
-            <img src="./images/yoda.jpeg">
-            <p>Love</p>
-            <p>Beauty</p>
-            <p>CSS that Scales!</p>
-            <p>Great warrior. Wars not make one great!</p>
-        </div>
-    </div>
-</body>
-
+			<div class="card__light">
+				<h2 class="card__title">The Force</h2>
+				<img class="card__img--light" src="./images/yoda.jpeg" />
+				<div class="card__text">
+					<p>Love</p>
+					<p>Beauty</p>
+					<p>CSS that Scales!</p>
+					<p>Great warrior. Wars not make one great!</p>
+				</div>
+				<button class="card__btn--light">Warning!</button>
+			</div>
+			<div class="card__dark">
+				<h2 class="card__title">Count Dooku</h2>
+				<img class="card__img--dark" src="./images/Dooku.webp" />
+				<div class="card__text">
+					<p>
+						Dooku canonically turns to the sith as he is shunned for training in
+						belief the sith were plotting to return.
+					</p>
+					<p>
+						His lightsaber's unique design and fighting technique is made to
+						fight other Lightsaber users.
+					</p>
+				</div>
+				<button class="card__btn--dark">Warning!</button>
+			</div>
+			<div class="card__light">
+				<h2 class="card__title">Ahsoka Tano</h2>
+				<img class="card__img--light" src="./images/Ahsoka.webp" />
+				<div class="card__text">
+					<p>Ashoka Tano was the unofficial Padawan of Anakin Skywalker</p>
+					<p>
+						She is known for her dual white lightsabers. White lightsabers only
+						come from crystals purified from the Sith's red blades, which are
+						"bled" red with their darker emotions
+					</p>
+				</div>
+				<button class="card__btn--light">Warning!</button>
+			</div>
+		</div>
+	</body>
 </html>

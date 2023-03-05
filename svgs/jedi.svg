@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   fill="#000000"
+   width="800px"
+   height="800px"
+   viewBox="0 0 32 32"
+   version="1.1"
+   id="svg12"
+   sodipodi:docname="jedi.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs16" />
+  <sodipodi:namedview
+     id="namedview14"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.28375"
+     inkscape:cx="322.4927"
+     inkscape:cy="400.38948"
+     inkscape:window-width="2880"
+     inkscape:window-height="1526"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg12" />
+  <path
+     d="m 15.981248,0 c 0,0 -0.399911,15.296576 -0.565043,21.574186 l -2.242676,-3.277757 1.442613,3.96281 -4.47035,0.65005 4.47035,0.650051 -1.727636,3.385265 2.462694,-2.585202 c -0.12801,4.913024 -0.157513,6.120478 -0.157513,6.120478 0,0 -11.0257213,-5.120261 -4.897882,-16.433784 0,0 -7.6415576,-8.4366589 -0.7200562,-13.62106386 0,0 -11.819164,7.13711766 -4.3203382,19.39151486 0,0 -6.20022436,-6.055793 -2.9577311,-12.1759511 0,0 -5.619719,7.9262591 1.2300962,16.6463001 0,0 -1.8713263,-1.148229 -3.5277757,-5.547933 0,0 1.2055542,13.090783 15.853739,13.261036 h 0.292522 C 30.785485,31.831027 32,18.741464 32,18.741464 c -1.685891,4.392023 -3.562778,5.547933 -3.562778,5.547933 6.848535,-8.720041 1.227595,-16.6463 1.227595,-16.6463 3.242494,6.127838 -2.957731,12.175952 -2.957731,12.175952 C 34.205912,7.5710515 22.386749,0.43003359 22.386749,0.43003359 29.306969,5.6221192 21.666693,14.048597 21.666693,14.048597 c 6.127838,11.312244 -4.897884,16.433784 -4.897884,16.433784 0,0 -0.02822,-1.207455 -0.157511,-6.120478 0.307224,0.321306 2.462693,2.585202 2.462693,2.585202 l -1.727637,-3.385264 4.472851,-0.650051 -4.472851,-0.650051 1.442614,-3.962809 -2.242675,3.277756 C 16.38756,15.311876 15.988929,0.12801 15.981248,0 Z"
+     id="path10"
+     style="opacity:1;fill:#000000;stroke-width:1.28011"
+     inkscape:export-filename="jedi-light.svg"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96" />
+</svg>

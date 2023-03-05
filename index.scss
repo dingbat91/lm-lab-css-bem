@@ -1,0 +1,149 @@
+// mixin placeholders
+%image {
+	width: 250px;
+}
+
+%card {
+	display: grid;
+	grid-template-rows: auto auto auto auto 5%;
+	grid-template-columns: auto auto auto auto;
+	padding: 10px;
+	box-shadow: 3px 3px gray;
+	flex-basis: 0%;
+}
+
+%card__img {
+	@extend %image;
+	grid-row: 2;
+	justify-self: center;
+}
+
+%btn {
+	grid-row: 5;
+	background-color: transparent;
+	border-radius: 10px;
+	transition-duration: 0.25s;
+	box-shadow: 2px 2px gray;
+}
+
+%btn:hover {
+	cursor: pointer;
+}
+
+//---
+
+//--- Fonts ---
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Golos+Text&family=Merienda:wght@300;600&display=swap");
+
+@font-face {
+	font-family: "Star Jedi";
+	src: url(/fonts/Starjedi.ttf);
+	text: black solid;
+}
+
+//---
+
+// Main Page
+.pageheader {
+	text-align: center;
+	font-family: "Star Jedi";
+	color: #ffe81f;
+	text-shadow: 2px 2px gray;
+	text-transform: capitalize;
+}
+
+.container {
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+	overflow: hidden;
+	flex-wrap: wrap;
+}
+
+body {
+	background-image: url(/images/stars.jpg);
+	background-repeat: repeat-y;
+	background-size: 100%;
+}
+
+//----
+
+//--- Force Cards --
+.card__light {
+	@extend %card;
+	background-image: url(/svgs/jedi-light.svg), url(/svgs/jedi.svg),
+		linear-gradient(white, #add8e6, #add8e6);
+	background-size: contain, 10%, auto;
+	background-repeat: no-repeat;
+	background-position: bottom, 1% 1%;
+	border: gray 2px solid;
+}
+
+.card__dark {
+	@extend %card;
+	background-image: url(/svgs/Empire--light.svg), url(/svgs/Empire--light.svg),
+		linear-gradient(grey, black, black);
+	background-size: contain, 10%, auto;
+	background-repeat: no-repeat;
+	background-position: bottom, 0.5% 0.5%;
+	color: white;
+	border: gray 2px solid;
+}
+
+.card__title {
+	margin: 0%;
+	justify-self: center;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	font-family: "Star Jedi";
+}
+
+.card__text {
+	grid-row: 3;
+	font-family: "Bebas Neue", cursive;
+	font-size: large;
+}
+//---
+
+//--- Light Side ---
+.card__img--light {
+	@extend %card__img;
+	box-shadow: 3px 3px gray;
+	border: white 3px solid;
+}
+.card__title--light {
+	@extend .card__title;
+}
+
+.card__btn--light {
+	@extend %btn;
+	color: darkblue;
+	border-color: gray;
+}
+
+.card__btn--light:hover {
+	background-color: #2ff924;
+	color: white;
+}
+//---
+
+//--- Dark Side ---
+.card__img--dark {
+	@extend %card__img;
+	box-shadow: 3px 3px gray;
+	border: 3px lightgray solid;
+}
+.card__title--dark {
+	@extend .card__title;
+}
+
+.card__btn--dark {
+	@extend %btn;
+	color: white;
+	border: 1px white solid;
+}
+
+.card__btn--dark:hover {
+	background-color: darkred;
+}
+//---

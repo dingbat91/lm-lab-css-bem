@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   fill="#000000"
+   width="800px"
+   height="800px"
+   viewBox="0 0 32 32"
+   version="1.1"
+   id="svg374"
+   sodipodi:docname="sith-light.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs378" />
+  <sodipodi:namedview
+     id="namedview376"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.28375"
+     inkscape:cx="400.38948"
+     inkscape:cy="400.38948"
+     inkscape:window-width="2880"
+     inkscape:window-height="1526"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg374" />
+  <path
+     d="M 0,0 4.9791666,8.4817706 1.3333334,8 5.6640625,13.411458 C 5.4557719,14.242056 5.3333334,15.105758 5.3333334,16 c 0,0.894242 0.1224385,1.757944 0.3307291,2.588542 L 1.3333334,24 4.9791666,23.51823 0,32 8.4817703,27.020833 8,30.666666 13.411458,26.335937 c 0.830598,0.20829 1.6943,0.330729 2.588542,0.330729 0.894242,0 1.757944,-0.122439 2.588542,-0.330729 L 24,30.666666 23.51823,27.020833 32,32 27.020833,23.51823 30.666666,24 26.335937,18.588542 c 0.20829,-0.830598 0.330729,-1.6943 0.330729,-2.588542 0,-0.894242 -0.122439,-1.757944 -0.330729,-2.588542 L 30.666666,8 27.020833,8.4817706 32,0 23.51823,4.9791666 24,1.3333334 18.588542,5.6640625 C 17.757944,5.4557719 16.894242,5.3333334 16,5.3333334 c -0.894242,0 -1.757944,0.1224385 -2.588542,0.3307291 L 8,1.3333334 8.4817703,4.9791666 Z m 16,8 c 4.412,0 8,3.588 8,8 0,4.412 -3.588,8 -8,8 -4.412,0 -8,-3.588 -8,-8 0,-4.412 3.588,-8 8,-8 z m 0,2.666667 a 5.3333336,5.3333336 0 0 0 0,10.666667 5.3333336,5.3333336 0 0 0 0,-10.666667 z"
+     id="path372"
+     style="opacity:0.25;fill:#ffffff;stroke-width:1.33334" />
+</svg>
